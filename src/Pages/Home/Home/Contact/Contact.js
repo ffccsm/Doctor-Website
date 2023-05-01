@@ -17,7 +17,7 @@ const Contact = () => {
     const handleSendEmail = (event) => {
        event.preventDefault()
        
-       emailjs.sendForm('service_b23f4pf', 'template_h6dcqro', form.current, 'M_ZpfpVp-QjxlUJBz')
+       emailjs.sendForm('service_qi3mydg', 'template_h6dcqro', form.current, 'M_ZpfpVp-QjxlUJBz')
        .then((result) => {
           console.log(result.text);
           toast.success('Message send')
@@ -68,8 +68,8 @@ const Contact = () => {
               </form>
               <div className='flex flex-col pt-4 text-white'>
                 
-                <h1 className='text-3xl flex items-center my-3'><GoMailRead className='mr-3' /> <span className='text-xl font-medium'>meheditonmoy917@gmail.com</span></h1>
-                <h1 className='text-3xl flex items-center my-3'><BsFillTelephoneForwardFill className='mr-3'/> <span className='text-xl font-medium'>+880199999999</span></h1>
+                <h1 className='text-3xl flex items-center my-3'><GoMailRead className='mr-3' /> <span className='text-xl font-medium'>mpisohel14@gmail.com</span></h1>
+                <h1 className='text-3xl flex items-center my-3'><BsFillTelephoneForwardFill className='mr-3'/> <span className='text-xl font-medium'>+8801777777777</span></h1>
                 <h1 className='text-3xl flex items-center my-3'><MdLocationOn className='mr-3'/> <span className='text-xl font-medium'>Dhaka, Bangladesh</span></h1>
               </div>
              </div>

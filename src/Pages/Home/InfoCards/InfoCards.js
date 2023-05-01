@@ -28,7 +28,7 @@ const InfoCards = () => {
         {
             id:3,
             name:'Contact',
-            description:'+88017123456789',
+            description:'+8807777777777',
             icon:phone,
             bgClass:'bg-primary'
         }
